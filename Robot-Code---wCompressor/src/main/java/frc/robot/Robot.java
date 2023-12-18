@@ -61,8 +61,6 @@ public class Robot extends TimedRobot {
 
 
 
-
-
    
 
   @Override
@@ -76,9 +74,7 @@ public class Robot extends TimedRobot {
     // gearbox is constructed, you might have to invert the left side instead.
     rightGroup.setInverted(true);
     controller = new CommandXboxController(0);
-
-  
-
+    
 
     speedInhibitor = 0.5;
     steeringInhibitor = 0.5;

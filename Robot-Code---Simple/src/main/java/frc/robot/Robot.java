@@ -82,16 +82,6 @@ public class Robot extends TimedRobot {
 
     speedInhibitor = 0.5;
     steeringInhibitor = 0.5;
-    
-    Compressor pcmCompressor = new Compressor(0, PneumaticsModuleType.CTREPCM);
-
-    pcmCompressor.enableDigital();
-    pcmCompressor.disable();
-
-    boolean enabled = pcmCompressor.enabled();
-    boolean pressureSwitch = pcmCompressor.getPressureSwitchValue();
-    //double current = pcmCompressor.getCompressorCurrent();
-    
 
   }
 
